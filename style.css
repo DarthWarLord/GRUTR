@@ -162,3 +162,37 @@ line-height: 16px;
 
 color: #FFFFFF;
 }
+
+
+.main {
+    width: 100%;
+    background-color:#323232;
+}
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.first-header {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+}
+
+.flex-elem {
+    display: flex;
+}
+.flex-elem_two{
+    padding-left: 58px;
+}
+.flex-elem div {
+    padding-right: 14px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
